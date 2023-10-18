@@ -1,4 +1,5 @@
 
+
 # <h1> E la vamos nois, print('c e louco') <h1/>
 ![images](https://github.com/LucasMatheusu/vamos/assets/146854180/e5e21061-39eb-4f68-ae6c-3fc2c9cdcd2e)
 <p> Eu estou iniciando na linguagem Python 🖤</p>
@@ -7,6 +8,9 @@
 
 
 ### Hi there 👋
+
+### Hi there 👋, um futuro back and, estou aprendendo a linguagem python
+
 
 <!--
 **LucasMatheusu/LucasMatheusu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
