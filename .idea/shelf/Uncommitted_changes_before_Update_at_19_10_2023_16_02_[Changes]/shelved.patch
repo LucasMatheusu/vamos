@@ -1,0 +1,62 @@
+Index: aula12.py
+===================================================================
+diff --git a/aula12.py b/aula12.py
+--- a/aula12.py	
++++ b/aula12.py	
+@@ -1,0 +1,10 @@
++nome = str(input('qual e o seu nome?'))
++if nome == 'Lucas':
++    print('Que nome bonito!')
++elif nome == 'maria' or nome == 'joao' or nome == 'paulo':
++    print('seu nome e popular')
++elif nome in 'ana claudia juliana':
++    print('Belo nome feminino')
++else:
++    print('seu nome e normal')
++print('Tenha um bom dia, {}'.format(nome))
+\ No newline at end of file
+Index: exercito.py
+===================================================================
+diff --git a/exercito.py b/exercito.py
+--- a/exercito.py	
++++ b/exercito.py	
+@@ -1,0 +1,17 @@
++from datetime import date
++atual = date.today().year
++nasc = int(input('diigte sua idade'))
++idade = atual - nasc
++print('Quem nasceu em {} tem {} anos em {}'.format(nasc, idade, atual))
++if idade == 18:
++    print('voce tem que se alistar')
++elif idade < 18:
++    saldo = 18 - idade
++    print('ainda falta {} anos para se alistar'.format(saldo))
++    ano = atual + saldo
++    print('seu alistamento sera em {}'.format(ano))
++elif idade > 18:
++    saldo = idade - 18
++    print('Voce ja deveria ter se alistado ha {} anos'.format(saldo))
++    ano = atual - saldo
++    print('seu alistamento foi em {}'.format(ano))
+Index: nataçao.py
+===================================================================
+diff --git a/nataçao.py b/nataçao.py
+--- a/nataçao.py	
++++ b/nataçao.py	
+@@ -1,0 +1,15 @@
++from datetime import date
++atual = date.today().year
++nascimento = int(input('Ano de nascimento: '))
++idade = atual - nascimento
++print('O atleta tem {} anos'.format(idade))
++if idade <=9:
++    print('sua categoria e \033[35m mirim')
++elif idade <= 14:
++    print('sua categoria e \033[34m infatil')
++elif idade <= 19:
++    print('sua categoria e \033[35m junior')
++elif idade <= 25:
++    print('sua categoria e \033[36m senior')
++else:
++    print('Voce e \033[32m master')
+\ No newline at end of file

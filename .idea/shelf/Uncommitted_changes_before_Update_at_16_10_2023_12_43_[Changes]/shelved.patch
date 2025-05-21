@@ -1,0 +1,13 @@
+Index: teste000.py
+===================================================================
+diff --git a/teste000.py b/teste000.py
+--- a/teste000.py	
++++ b/teste000.py	
+@@ -1,0 +1,6 @@
++nome = input('digite seu nome')
++idade = int(input('digite sua idade'))
++if idade > 16:
++    print(f'{nome} podem proseguir')
++else:
++    print(f'{nome}  nao  pode continue por que tem idade {idade}')
+\ No newline at end of file

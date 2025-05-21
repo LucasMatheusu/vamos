@@ -58,4 +58,3 @@ while onibus != 6:
         "ele e mais barato")
     else:
         print('obrigado,Volte sempre')
-
