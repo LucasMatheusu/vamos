@@ -1,0 +1,15 @@
+Index: viagem.py
+===================================================================
+diff --git a/viagem.py b/viagem.py
+--- a/viagem.py	
++++ b/viagem.py	
+@@ -1,0 +1,9 @@
++distancia = float(input('distancia da viagem'))
++print('sua distancia foi KM{}'.format(distancia))
++if distancia <= 200:
++    preço = distancia * 0.30
++else:
++    preço = distancia * 0.90
++print('o valor vai ser {}'.format(preço))
++
++
